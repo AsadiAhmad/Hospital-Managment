@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.SignInDoctorPageController">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="800.0">
+         <children>
+            <Polyline layoutX="715.0" layoutY="562.0" points="10.79998779296875, -67.20001220703125, 64.79998779296875, -102.20001220703125, 22.79998779296875, 27.79998779296875, -9.20001220703125, 53.79998779296875" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.7921568751335144" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9969465648854962">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.7921568751335144" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9969465648854962">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+            <Polyline layoutX="620.0" layoutY="62.0" points="-162.60000610351562, 11.0, -62.20001220703125, -30.200000762939453, 153.79998779296875, 144.8000030517578, -162.60000610351562, 11.0" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6823529601097107" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9938931297709922">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9969465648854962">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6823529601097107" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.9969465648854962">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+            <Polyline layoutX="100.0" layoutY="61.0" points="1.52587890625E-5, 162.8000030517578, -79.19999694824219, -29.200000762939453, 122.80000305175781, 17.800003051757812, 143.8000030517578, 48.80000305175781" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.49803921580314636" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.49803921580314636" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+            <AnchorPane layoutX="100.0" layoutY="100.0" prefHeight="450.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="450.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../myPicture/Image2.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane prefHeight="450.0" prefWidth="600.0">
+                     <children>
+                        <Label layoutX="42.0" layoutY="166.0" text="First Name :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="age_text_field" layoutX="289.0" layoutY="220.0" prefHeight="30.0" prefWidth="62.0" promptText="Age">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Label fx:id="sign_in_label" layoutX="202.0" layoutY="48.0" text="Sign in Page">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.5686274766921997" green="0.027450980618596077" blue="0.8588235378265381" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.8352941274642944" green="0.1411764770746231" blue="0.6627451181411743" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <TextField fx:id="work_experience_text_field" layoutX="428.0" layoutY="284.0" prefHeight="30.0" prefWidth="63.0" promptText="exp">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="degree_of_education_text_field" layoutX="202.0" layoutY="284.0" prefHeight="30.0" prefWidth="63.0" promptText="exp">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="gender_text_field" layoutX="428.0" layoutY="220.0" prefHeight="30.0" prefWidth="110.0" promptText="Man or Woman">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="last_name_text_field" layoutX="378.0" layoutY="161.0" prefHeight="30.0" prefWidth="163.0" promptText="Last Name">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="user_name_text_field" layoutX="124.0" layoutY="220.0" prefHeight="30.0" prefWidth="125.0" promptText="User Name">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="first_name_text_field" layoutX="127.0" layoutY="161.0" prefHeight="30.0" prefWidth="163.0" promptText="First Name">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="register_button" layoutX="424.0" layoutY="377.0" mnemonicParsing="false" onAction="#onClickRegister" stylesheets="@../myCssFile/Button.css" text="Register" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cancel_button" layoutX="93.0" layoutY="377.0" mnemonicParsing="false" onAction="#onClickCancelButton" stylesheets="@../myCssFile/Button.css" text="Cancel" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Label layoutX="296.0" layoutY="289.0" text="Work Experience :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="41.0" layoutY="289.0" text="Degree of Education :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="364.0" layoutY="225.0" text="Gender :" textFill="#f5f5f5">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="256.0" layoutY="225.0" text="Age :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="41.0" layoutY="225.0" text="User Name :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="300.0" layoutY="166.0" text="Last Name :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

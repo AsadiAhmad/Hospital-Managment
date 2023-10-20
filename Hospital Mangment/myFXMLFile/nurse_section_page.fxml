@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="800.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Project1.NurseSectionPageController">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="800.0">
+         <children>
+            <Polyline layoutX="562.0" layoutY="54.0" points="-112.39999389648438, 17.0, -11.4000244140625, -25.0, 204.5999755859375, 161.0, -112.39999389648438, 17.0" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6823529601097107" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.6823529601097107" blue="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+            <Polyline layoutX="111.0" layoutY="54.0" points="-11.0, 176.0, -91.4000015258789, -28.0, 105.60000610351562, 18.0, 128.60000610351562, 46.0" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13725490868091583" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.13725490868091583" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.09019608050584793" green="0.6274510025978088" blue="0.8196078538894653" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+            <AnchorPane layoutX="100.0" layoutY="100.0" prefHeight="450.0" prefWidth="600.0">
+               <children>
+                  <ImageView fitHeight="450.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../myPicture/Image2.jpg" />
+                     </image>
+                  </ImageView>
+                  <AnchorPane prefHeight="450.0" prefWidth="600.0">
+                     <children>
+                        <Label fx:id="visit_patient_label" layoutX="206.0" layoutY="65.0" text="Visit Patient">
+                           <font>
+                              <Font size="36.0" />
+                           </font>
+                           <textFill>
+                              <LinearGradient endX="1.0" endY="1.0">
+                                 <stops>
+                                    <Stop>
+                                       <color>
+                                          <Color red="0.5686274766921997" green="0.027450980618596077" blue="0.8588235378265381" />
+                                       </color>
+                                    </Stop>
+                                    <Stop offset="1.0">
+                                       <color>
+                                          <Color red="0.8352941274642944" green="0.1411764770746231" blue="0.6627451181411743" />
+                                       </color>
+                                    </Stop>
+                                 </stops>
+                              </LinearGradient>
+                           </textFill>
+                        </Label>
+                        <TextField fx:id="patient_status_text_field" layoutX="416.0" layoutY="172.0" prefHeight="30.0" prefWidth="150.0" promptText="Patient Status">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="time_of_visit" layoutX="379.0" layoutY="225.0" prefHeight="30.0" prefWidth="188.0" promptText="Time Of Visit">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="accept_button" layoutX="467.0" layoutY="382.0" mnemonicParsing="false" onAction="#onClickAcceptButton" stylesheets="@../myCssFile/Button.css" text="Accept" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="cancel_button" layoutX="92.0" layoutY="382.0" mnemonicParsing="false" onAction="#onClickCancelButton" stylesheets="@../myCssFile/Button.css" text="Cancel" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Button>
+                        <TextArea fx:id="description_of_visit" layoutX="33.0" layoutY="305.0" prefHeight="46.0" prefWidth="534.0" promptText="Description Of Visit">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextArea>
+                        <TextField fx:id="cost_of_visit_text_field" layoutX="123.0" layoutY="225.0" prefHeight="30.0" prefWidth="149.0" promptText="Cost Of Visit">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="patient_national_code_text_field" layoutX="176.0" layoutY="172.0" prefHeight="30.0" prefWidth="126.0" promptText="National Code">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="33.0" layoutY="270.0" text="Description Of Visit :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="279.0" layoutY="230.0" text="Time Of Visit :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="310.0" layoutY="177.0" text="Patient Status :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="33.0" layoutY="230.0" text="Cost Of Visit :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="33.0" layoutY="177.0" text="Patient National Code :" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <Polyline layoutX="700.0" layoutY="530.0" points="28.5999755859375, -34.0, 79.5999755859375, -84.0, 42.5999755859375, 62.0, 7.5999755859375, 84.0" strokeType="INSIDE">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.7921568751335144" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+               <stroke>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.7921568751335144" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.8235294222831726" green="0.08627451211214066" blue="0.2078431397676468" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </stroke></Polyline>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
